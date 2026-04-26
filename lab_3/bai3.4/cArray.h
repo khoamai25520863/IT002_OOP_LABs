@@ -14,6 +14,4 @@ public:
 	int findBiggestPrime();
 	void increasingOrder();
 	void decreasingOrder();
-
-	// test
 };
