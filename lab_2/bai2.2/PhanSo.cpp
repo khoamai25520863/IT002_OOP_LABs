@@ -20,6 +20,7 @@ void PhanSo::nhap() {
 		cout << "nhap mau: ";
 		cin >> iMau;
 	}
+	rutGon();
 }
 
 void PhanSo::rutGon() {
