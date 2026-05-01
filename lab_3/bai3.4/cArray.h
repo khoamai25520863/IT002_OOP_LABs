@@ -1,17 +1,17 @@
-#pragma once
-class cArray {
-private:
-	int* array;
-	int soPhanTu;
+	#pragma once
+	class cArray {
+	private:
+		int* array;
+		int soPhanTu;
 
-	bool isPrime(int arrayItem);
-public:
-	cArray();
-	void xuat();
-	int numberOfX(int x);
-	bool isIncreasing();
-	int findSmallestOdd();
-	int findBiggestPrime();
-	void increasingOrder();
-	void decreasingOrder();
-};
+		bool isPrime(int arrayItem);
+	public:
+		cArray();
+		void xuat();
+		int numberOfX(int x);
+		bool isIncreasing();
+		int findSmallestOdd();
+		int findBiggestPrime();
+		void increasingOrder();
+		void decreasingOrder();
+	};
